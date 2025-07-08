@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "lerna": "^8.2.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "@happy-dom/jest-environment": "^7.7.0"
+  }
+}
