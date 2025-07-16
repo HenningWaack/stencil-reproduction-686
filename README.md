@@ -1,7 +1,17 @@
 Run app:
 
 ```shell
-cd packages/vue-project
+npm install
+
+cd packages/stencil-library
+npm install
+npm run build
+
+cd ../vue-library
+npm install
+npm run build
+
+cd ../vue-project
 npm install
 npm run dev
 ```
